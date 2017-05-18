@@ -38,7 +38,7 @@ public class NettyServer {
 //                            ch.pipeline().addLast("chunkedWriter", new ChunkedWriteHandler());
                         }
                     })
-                    ////最大客户端连接数
+                    //最大客户端连接数
                     .option(ChannelOption.SO_BACKLOG, 1024)
                     //禁用纳格算法，将数据立即发送出去
                     .option(ChannelOption.TCP_NODELAY,true);
