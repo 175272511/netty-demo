@@ -34,8 +34,6 @@ public class NettyServer {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast(new NettyServerHandler());
-//                            ch.pipeline().addLast("aggregator", new HttpObjectAggregator(1024*1024*64));
-//                            ch.pipeline().addLast("chunkedWriter", new ChunkedWriteHandler());
                         }
                     })
                     //最大客户端连接数
