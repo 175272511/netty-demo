@@ -1,4 +1,4 @@
-package com.zibba.server;
+package com.zibba.demo.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

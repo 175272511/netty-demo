@@ -1,4 +1,4 @@
-package com.zibba.client;
+package com.zibba.demo.client;
 
 import java.io.*;
 import java.net.Socket;
